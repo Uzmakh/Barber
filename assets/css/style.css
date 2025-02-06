@@ -890,6 +890,10 @@ a.contact-link:is(:hover, :focus) {
   color: var(--white);
 }
 
+.copyright span {
+  display: inline;
+}
+
 .footer-bottom {
   background-color: var(--eerie-black-3);
   text-align: center;

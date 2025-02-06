@@ -1,6 +1,6 @@
 'use strict';
 
-
+console.log('JavaScript file loaded');
 
 /**
  * add event on element
@@ -88,3 +88,9 @@ const filter = function () {
 }
 
 addEventOnElem(filterBtns, "click", filter);
+
+//  To have the current year in the footer
+const date = document.getElementById('date');
+const currentYear = new Date().getFullYear();
+date.textContent = currentYear
+
