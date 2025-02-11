@@ -762,7 +762,7 @@ textarea.input-field {
   padding: 15px;
 }
 
-.footer .input-wrapper:focus-within {
+.footer .input-wrapper .email-field:focus-within {
   outline: 3px solid var(--white_30);
 }
 
